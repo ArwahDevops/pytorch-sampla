@@ -5,7 +5,7 @@ import torch.nn as nn
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 # Read the CSV file and extract the relevant columns
-df = pd.read_csv('filtered_data.csv')
+df = pd.read_csv('data.csv')
 data = df[['Hari','Jam','Result']]
 
 # Encode the categorical feature 'Hari'
