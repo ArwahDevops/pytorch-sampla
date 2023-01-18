@@ -1,2 +1,2 @@
-# pytorch-sampla
+# pytorch-sample
 PyTorch Sample
